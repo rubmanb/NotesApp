@@ -42,6 +42,11 @@ android {
 
 dependencies {
 
+    //BOM
+    var composeBom = platform("androidx.compose:compose-bom:2025.09.01")
+    implementation(composeBom)
+    androidTestImplementation(composeBom)
+
     // Variables of verions
     val room_version = "2.8.0"
 
@@ -67,5 +72,8 @@ dependencies {
     ksp("androidx.room:room-compiler:$room_version")
 
     //navigation
-    implementation(libs.androidx.navigation.compose)
+    val nav_version = "2.9.4"
+
+    implementation("androidx.navigation:navigation-compose:$nav_version")
+
 }
