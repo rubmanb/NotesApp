@@ -6,6 +6,7 @@ import androidx.navigation.compose.*
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 import com.ruben.kotin.notesapp.presentation.login.LoginScreen
+import com.ruben.kotin.notesapp.presentation.notes.NoteDetailScreen
 import com.ruben.kotin.notesapp.presentation.notes.NotesScreen
 import com.ruben.kotin.notesapp.presentation.register.RegisterScreen
 
